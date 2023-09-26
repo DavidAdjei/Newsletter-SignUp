@@ -110,6 +110,7 @@ input[type=email] {
 }
 
 #dismiss,
+#m-dismiss,
 #form button{
     height: 3rem;
     width: 100%;
@@ -124,6 +125,7 @@ input[type=email] {
 }
 
 #dismiss:hover,
+#m-dismiss:hover,
 #form button:hover{
     background-color: var(--Tomato);
 }

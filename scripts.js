@@ -2,7 +2,7 @@ var main = document.querySelector("#main");
 var success = document.querySelector(".success_page");
 var submit = document.querySelector("#submit");
 var dismiss = document.querySelector("#dismiss");
-var link = document.getElementsByTagName("a")[0];
+var mobileDismiss = document.querySelector("#m-dismiss")
 var isValid = false;
 
 function checkEmail() {
@@ -46,6 +46,7 @@ function errorState() {
 
 submit.addEventListener("click", clickSubmit);
 dismiss.addEventListener("click", clickDismiss);
+mobileDismiss.addEventListener("click", clickDismiss);
 
 var form = document.querySelector("#form");
 form.addEventListener("submit", function (event) {
